@@ -453,9 +453,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libmmcamera_interface \
     libdualcameraddm \
-    ifaa_fw \
-    dm-tool \
-    logic_volume
+    ifaa_fw
 PRODUCT_COPY_FILES += \
     vendor/smartisan/sdm660-common/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/smartisan/sdm660-common/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
