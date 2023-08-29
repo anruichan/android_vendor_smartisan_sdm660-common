@@ -183,6 +183,80 @@ android_app_import {
 	product_specific: true,
 }
 
+dex_import {
+	name: "QtiTelephonyServicelibrary",
+	owner: "smartisan",
+	jars: ["proprietary/framework/QtiTelephonyServicelibrary.jar"],
+}
+
+dex_import {
+	name: "com.qualcomm.qti.imscmservice-V2.0-java",
+	owner: "smartisan",
+	jars: ["proprietary/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar"],
+}
+
+dex_import {
+	name: "com.qualcomm.qti.imscmservice-V2.1-java",
+	owner: "smartisan",
+	jars: ["proprietary/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar"],
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.0-java",
+	owner: "smartisan",
+	jars: ["proprietary/framework/com.qualcomm.qti.uceservice-V2.0-java.jar"],
+}
+
+dex_import {
+	name: "embmslibrary",
+	owner: "smartisan",
+	jars: ["proprietary/framework/embmslibrary.jar"],
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "smartisan",
+	jars: ["proprietary/framework/qcrilhook.jar"],
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "smartisan",
+	jars: ["proprietary/framework/qti-telephony-common.jar"],
+}
+
+dex_import {
+	name: "vendor.qti.hardware.sensorscalibrate-V1.0-java",
+	owner: "smartisan",
+	jars: ["proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar"],
+}
+
+dex_import {
+	name: "vendor.qti.ims.callinfo-V1.0-java",
+	owner: "smartisan",
+	jars: ["proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar"],
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsconfig-V1.0-java",
+	owner: "smartisan",
+	jars: ["proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "smartisan",
+	jars: ["proprietary/product/framework/com.qti.dpmframework.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "smartisan",
+	jars: ["proprietary/product/framework/dpmapi.jar"],
+	product_specific: true,
+}
+
 prebuilt_etc_xml {
 	name: "vendor.qti.gnss@3.0-service",
 	owner: "smartisan",
